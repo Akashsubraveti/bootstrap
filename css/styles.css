@@ -1,0 +1,245 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubantu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 40%;
+}
+
+/* features */
+.features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.f1{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.p1 {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.f2{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.p2 {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.f3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.p3 {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+/* icons */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+.testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+.test {
+  color: #fff;
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height:1.5;
+}
+.dog {
+  border-radius: 100%;
+  position: relative;
+  left: 100px;
+}
+.doggy {
+  position: relative;
+  left: 100px;
+  padding-left: 30PX;
+}
+
+/* press */
+
+.press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+.price {
+  color: #8f8f8f;
+  font-family: "Montserrat-bold";
+  text-align: center;
+}
+
+.pricing {
+  padding: 100px;
+}
+.row {
+  padding: 30px;
+}
+
+.a {
+  text-align: center;
+}
+
+.b {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.p-c {
+  padding: 2% 2%;
+}
+
+.h {
+  font-family: "Montserrat-bold";
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+.title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* climax */
+
+.climax {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.love {
+  color: #fff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.b1 {
+  position: relative;
+  right: 30px;
+}
+.b2 {
+  position: relative;
+  left: 30px;
+}
+
+.logos {
+  padding: 7% 15%;
+  text-align: center;
+}
+.copy {
+  text-align: center;
+  font-family: "Montserrat-black";
+  color: #8f8f8f;
+  padding-bottom: 2%;
+  position: relative;
+  top: 18px;
+}
+
+.fb {
+  position: relative;
+  right: 30px;
+}
+
+.insta {
+  position: relative;
+  right: 15px;
+}
+
+.twi {
+  position: relative;
+  left: 1px;
+}
+
+.env {
+  position: relative;
+  left: 16px;
+}
